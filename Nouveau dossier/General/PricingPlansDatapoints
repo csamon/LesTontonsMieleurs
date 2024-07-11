@@ -1,0 +1,12 @@
+# Tableau Récapitulatif des Configurations
+
+| Configuration                    | Datapoints max / jour | Envois par Jour | Fréquence d'envoi (minutes) | Variables loggées par envoi |
+|----------------------------------|-----------------------|-----------------|-----------------------------|-----------------------------|
+| 5 ruches, 1 hub                  | 2500                  | 83              | 17.35                       | 30                          |
+-| 5 ruches, 1 hub, 1 serre         | 2500                  | 73              | 19.73                       | 34                          |
+| 10 ruches, 2 hubs, 1 serre       | 2500                  | 38              | 37.89                       | 66                          |
+| 15 ruches, 3 hubs, 1 serre       | 2500                  | 27              | 53.33                       | 92                          |
+| 5 ruches, 1 hub                  | 7500                  | 250             | 5.76                        | 30                          |
+| 5 ruches, 1 hub, 1 serre         | 7500                  | 220             | 6.55                        | 34                          |
+| 10 ruches, 2 hubs, 1 serre       | 7500                  | 113             | 12.74                       | 66                          |
+| 15 ruches, 3 hubs, 1 serre       | 7500                  | 83              | 17.35                       | 92                          |

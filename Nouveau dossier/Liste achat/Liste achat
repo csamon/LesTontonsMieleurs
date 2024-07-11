@@ -1,0 +1,106 @@
+### Liste du Matériel à Acheter et Coûts Estimés
+
+#### 1. ESP32 WROOM-32
+- **Quantité**: 5 (pour les ruches)
+- **Prix unitaire**: environ 5 EUR
+- **Total**: 25 EUR
+  - [AliExpress - 4.5 EUR](https://www.aliexpress.com/item/32825433989.html)
+  - [Amazon - 6 EUR](https://www.amazon.com/dp/B08KHL21CV)
+  - [Banggood - 5 EUR](https://www.banggood.com/ESP32-Development-Board-p-1394679.html)
+
+#### 2. Heltec LoRa 32 (V2)
+- **Quantité**: 1 (pour le hub)
+- **Prix unitaire**: environ 20 EUR
+- **Total**: 20 EUR
+  - [AliExpress - 19 EUR](https://www.aliexpress.com/item/32954760901.html)
+  - [Amazon - 23 EUR](https://www.amazon.com/dp/B089KVK61R)
+  - [Banggood - 21 EUR](https://www.banggood.com/Heltec-LoRa-32-V2-p-1413783.html)
+
+#### 3. BME280 Capteur de Température, Humidité, Pression
+- **Quantité**: 1 (pour la serre)
+- **Prix unitaire**: environ 5 EUR
+- **Total**: 5 EUR
+  - [AliExpress - 4 EUR](https://www.aliexpress.com/item/32665172249.html)
+  - [Amazon - 6 EUR](https://www.amazon.com/dp/B01N1Z2LT6)
+  - [Banggood - 5 EUR](https://www.banggood.com/BME280-Sensor-p-1111484.html)
+
+#### 4. BH1750 Capteur de Luminosité
+- **Quantité**: 1 (pour la serre)
+- **Prix unitaire**: environ 2 EUR
+- **Total**: 2 EUR
+  - [AliExpress - 1.8 EUR](https://www.aliexpress.com/item/32949699743.html)
+  - [Amazon - 3 EUR](https://www.amazon.com/dp/B07QKPQJL7)
+  - [Banggood - 2.5 EUR](https://www.banggood.com/BH1750-Lux-Meter-Sensor-p-1101514.html)
+
+#### 5. Capteur d'Humidité du Sol
+- **Quantité**: 1 (pour la serre)
+- **Prix unitaire**: environ 1 EUR
+- **Total**: 1 EUR
+  - [AliExpress - 0.5 EUR](https://www.aliexpress.com/item/32847950133.html)
+  - [Amazon - 1.5 EUR](https://www.amazon.com/dp/B00K4TEA9I)
+  - [Banggood - 1 EUR](https://www.banggood.com/Soil-Moisture-Sensor-p-1029370.html)
+
+#### 6. SHT30 Capteur de Température et Humidité
+- **Quantité**: 5 (pour les ruches)
+- **Prix unitaire**: environ 4 EUR
+- **Total**: 20 EUR
+  - [AliExpress - 3.5 EUR](https://www.aliexpress.com/item/32965018754.html)
+  - [Amazon - 5 EUR](https://www.amazon.com/dp/B075GJM4FS)
+  - [Banggood - 4.5 EUR](https://www.banggood.com/SHT30-Digital-Temperature-Humidity-Sensor-p-1201500.html)
+
+#### 7. SW-420 Capteur de Vibration
+- **Quantité**: 5 (pour les ruches)
+- **Prix unitaire**: environ 1 EUR
+- **Total**: 5 EUR
+  - [AliExpress - 0.7 EUR](https://www.aliexpress.com/item/33012222371.html)
+  - [Amazon - 1.5 EUR](https://www.amazon.com/dp/B07QKQ3H3L)
+  - [Banggood - 1 EUR](https://www.banggood.com/SW-420-Vibration-Sensor-p-1335973.html)
+
+#### 8. MAX4466 Capteur de Son
+- **Quantité**: 5 (pour les ruches)
+- **Prix unitaire**: environ 2 EUR
+- **Total**: 10 EUR
+  - [AliExpress - 1.5 EUR](https://www.aliexpress.com/item/32753065625.html)
+  - [Amazon - 3 EUR](https://www.amazon.com/dp/B08D8Y7M51)
+  - [Banggood - 2.5 EUR](https://www.banggood.com/MAX4466-Microphone-Module-p-1081528.html)
+
+#### 9. HX711 Capteur de Poids
+- **Quantité**: 5 (pour les ruches)
+- **Prix unitaire**: environ 1 EUR
+- **Total**: 5 EUR
+  - [AliExpress - 0.8 EUR](https://www.aliexpress.com/item/32828724927.html)
+  - [Amazon - 1.5 EUR](https://www.amazon.com/dp/B08JGQ2H1H)
+  - [Banggood - 1 EUR](https://www.banggood.com/HX711-Weighing-Sensor-p-1290005.html)
+
+#### 10. Batteries Li-ion 18650
+- **Quantité**: 10 (pour assurer une autonomie suffisante)
+- **Prix unitaire**: environ 5 EUR
+- **Total**: 50 EUR
+  - [AliExpress - 4 EUR](https://www.aliexpress.com/item/33005813504.html)
+  - [Amazon - 6 EUR](https://www.amazon.com/dp/B07FJTZVG3)
+  - [Banggood - 5 EUR](https://www.banggood.com/18650-Battery-p-992546.html)
+
+#### 11. Panneaux Solaires 5V
+- **Quantité**: 6 (pour chaque ruche et le hub)
+- **Prix unitaire**: environ 10 EUR
+- **Total**: 60 EUR
+  - [AliExpress - 8 EUR](https://www.aliexpress.com/item/33030300498.html)
+  - [Amazon - 12 EUR](https://www.amazon.com/dp/B07KQRLKT7)
+  - [Banggood - 10 EUR](https://www.banggood.com/5V-Solar-Panel-p-1093702.html)
+
+### Total Estimé
+
+| Item                         | Quantité | Total (EUR) |
+|------------------------------|----------|-------------|
+| ESP32 WROOM-32               | 5        | 25          |
+| Heltec LoRa 32 (V2)          | 1        | 20          |
+| BME280 Capteur               | 1        | 5           |
+| BH1750 Capteur de Luminosité | 1        | 2           |
+| Capteur d'Humidité du Sol    | 1        | 1           |
+| SHT30 Capteur                | 5        | 20          |
+| SW-420 Capteur               | 5        | 5           |
+| MAX4466 Capteur              | 5        | 10          |
+| HX711 Capteur                | 5        | 5           |
+| Batteries Li-ion 18650       | 10       | 50          |
+| Panneaux Solaires 5V         | 6        | 60          |
+| **Total**                    |          | **203**     |

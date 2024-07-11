@@ -1,0 +1,76 @@
+# 🐝 Projet de Ruche Connectée
+
+## 📝 Résumé du Projet
+
+Ce projet vise à créer un système de surveillance de ruches connectées pour favoriser la bonne santé des abeilles et surveiller l'activité des ruches. Le système utilise des microcontrôleurs ESP32, des capteurs variés, et une communication via le réseau LoRa Meshtastic.
+
+## 🌐 Architecture du Système
+
+- **Maison**: Héberge la passerelle LoRa-Meshtastic connectée à Internet.
+- **Serre**: Collecte les données environnementales et les envoie à la passerelle toutes les 10 minutes.
+- **Ruches**: Chaque ruche est équipée de capteurs et d'un ESP32 qui transmettent les données au Hub via BLE toutes les 10 minutes.
+- **Hub**: Agrège les données des ruches et les envoie à la passerelle via Meshtastic toutes les 10 minutes.
+
+### 📊 Timings et Intervalles
+
+- **ESP Ruches**:
+  - **Lecture des capteurs**: Toutes les 30 secondes
+  - **Envoi des données**: Toutes les 10 minutes
+  - **Détection d'alarmes**: Instantanée, envoie une alerte en cas de variation rapide
+
+- **Hub**:
+  - **Lecture des capteurs environnementaux**: Toutes les 10 minutes
+  - **Envoi des données**: Toutes les 10 minutes
+  - **Période d'écoute pour données des ruches**: 1 minute
+
+- **Serre**:
+  - **Lecture des capteurs**: Toutes les 30 secondes
+  - **Envoi des données**: Toutes les 10 minutes
+
+## 🔧 Technologies Utilisées
+
+- **Microcontrôleurs**: ESP32 WROOM-32 pour les ruches, Heltec LoRa 32 (V2) pour le Hub et la Serre
+- **Communication**: LoRa Meshtastic pour la longue distance, BLE pour la communication intra-cluster
+- **Capteurs**:
+  - **Température et Humidité**: SHT30 (ruches), BME280 (serre)
+  - **Vibration**: SW-420
+  - **Son**: MAX4466
+  - **Poids**: HX711
+  - **Luminosité**: BH1750
+  - **Humidité du Sol**: Capteur d'humidité du sol
+
+## 🎯 Objectifs du Projet
+
+- **Surveillance de la Santé des Abeilles**: Mesure de la température, de l'humidité, des vibrations, du son et du poids pour détecter des conditions anormales.
+- **Suivi Environnemental**: Surveillance des conditions environnementales dans la serre et autour des ruches.
+- **Alertes**: Envoi d'alertes en temps réel en cas de variations rapides des paramètres.
+- **Autonomie Énergétique**: Utilisation de panneaux solaires et de batteries pour assurer l'autonomie du système.
+
+## 📦 Liste du Matériel
+
+| **Item**                      | **Quantité** | **Total (EUR)** |
+|------------------------------|-------------|----------------|
+| ESP32 WROOM-32               | 5           | 25             |
+| Heltec LoRa 32 (V2)          | 1           | 20             |
+| BME280 Capteur               | 1           | 5              |
+| BH1750 Capteur de Luminosité | 1           | 2              |
+| Capteur d'Humidité du Sol    | 1           | 1              |
+| SHT30 Capteur                | 5           | 20             |
+| SW-420 Capteur               | 5           | 5              |
+| MAX4466 Capteur              | 5           | 10             |
+| HX711 Capteur                | 5           | 5              |
+| Batteries Li-ion 18650       | 10          | 50             |
+| Panneaux Solaires 5V         | 6           | 60             |
+| **Total**                    |             | **203**        |
+
+## 🌟 Points Forts et Conseils
+
+- **Modularité**: Le système est conçu pour être modulaire, permettant l'ajout facile de nouvelles ruches.
+- **Énergie**: L'utilisation de batteries Li-ion 18650 et de panneaux solaires 5V assure une autonomie suffisante.
+- **Technologies Avancées**: L'exploitation de LoRa Meshtastic pour la communication longue distance et BLE pour la communication intra-cluster permet une gestion efficace des ressources.
+- **Alertes en Temps Réel**: La détection rapide et l'envoi d'alertes garantissent une réaction rapide en cas de conditions anormales.
+- **Surveillance Complète**: Les différents capteurs offrent une vue d'ensemble complète de la santé des abeilles et des conditions environnementales.
+
+---
+
+Ce projet combine des technologies avancées et une conception modulaire pour offrir une solution robuste et efficace de surveillance des ruches, aidant les apiculteurs à maintenir la santé et l'activité de leurs abeilles.
